@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+
 import localFont from "next/font/local";
 import "./globals.css";
+import { LayoutProps } from "@/.next/types/app/layout";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,14 +17,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Wedding clicks Photography",
-  description: "Best wedding photography in lucknow",
+  description: "Best wedding photography in town",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body

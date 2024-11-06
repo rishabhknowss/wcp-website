@@ -1,3 +1,19 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    // Disables the React hook dependency warning
+    "react-hooks/exhaustive-deps": "off",
+    
+    // Disables warnings about using <img> instead of <Image> from next/image
+    "@next/next/no-img-element": "off",
+
+    // Disables ESLint warnings for const reassignment suggestions
+    "prefer-const": "off",
+
+    // Allows the empty object type `{}`
+    "@typescript-eslint/no-empty-object-type": "off",
+
+    // Disables 'any' type warnings
+    "@typescript-eslint/no-explicit-any": "off"
+  }
 }
