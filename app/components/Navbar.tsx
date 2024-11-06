@@ -6,17 +6,18 @@ import {
   IconHome,
   IconPhone,
   IconMail,
-  IconBrandInstagram
+  IconBrandInstagram,
+  IconBrandGooglePhotos
 } from "@tabler/icons-react";
 
 export function FloatingDockDemo() {
   const links = [
     {
-      title: "Home",
+      title: "Website",
       icon: (
         <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "/",
     },
 
     {
@@ -32,6 +33,13 @@ export function FloatingDockDemo() {
         <IconPhone className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
+    },
+    {
+      title: "Gallery",
+      icon: (
+        <IconBrandGooglePhotos className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/gallery",
     },
    
     {

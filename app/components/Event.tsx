@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useState } from "react";
 import { VideoPage } from "./Video";
+import Link from "next/link";
 
 export const EventPage = () => {
   const [title, setTitle] = useState("beautiful");
@@ -22,9 +23,9 @@ export const EventPage = () => {
           <button className="border p-2 sm:p-3 px-8 sm:px-16 bg-black text-white wcp rounded-xl text-lg sm:text-xl">
             Book Us Now
           </button>
-          <button className="border p-2 sm:p-3 px-8 sm:px-16 bg-slate-200 text-lg sm:text-xl wcp rounded-xl">
+          <Link href={'/gallery'} ><button className="border p-2 sm:p-3 px-8 sm:px-16 bg-slate-200 text-lg sm:text-xl wcp rounded-xl">
             View More
-          </button>
+          </button></Link>
         </div>
       </div>
       
