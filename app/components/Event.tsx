@@ -3,6 +3,10 @@ import { useEffect, useState } from "react";
 import { VideoPage } from "./Video";
 import Link from "next/link";
 
+const openLink = () => {
+  window.open("https://wa.me/916307481853", "_blank");
+};
+
 export const EventPage = () => {
   const [title, setTitle] = useState("beautiful");
   const titles = ["beautiful", "aesthetic", "stunning"];
@@ -20,7 +24,7 @@ export const EventPage = () => {
     <div className="h-screen">
       <div className="flex justify-center mt-8 sm:mt-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-10 lg:gap-28">
-          <button className="border p-2 sm:p-3 px-8 sm:px-16 bg-black text-white wcp rounded-xl text-lg sm:text-xl">
+          <button className="border p-2 sm:p-3 px-8 sm:px-16 bg-black text-white wcp rounded-xl text-lg sm:text-xl" onClick={openLink}>
             Book Us Now
           </button>
           <Link href={'/gallery'} ><button className="border p-2 sm:p-3 px-8 sm:px-16 bg-slate-200 text-lg sm:text-xl wcp rounded-xl">
