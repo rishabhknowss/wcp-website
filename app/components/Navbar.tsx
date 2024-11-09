@@ -1,13 +1,13 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandYoutubeFilled,
   IconBrandWhatsapp,
   IconHome,
   IconPhone,
   IconMail,
   IconBrandInstagram,
-  IconBrandGooglePhotos
+  IconBrandGooglePhotos,
+  IconBrandTelegram
 } from "@tabler/icons-react";
 
 export function FloatingDockDemo() {
@@ -49,20 +49,19 @@ export function FloatingDockDemo() {
       ),
       href: "#",
     },
-
-    {
-      title: "Youtube",
-      icon: (
-        <IconBrandYoutubeFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
     {
       title: "Instagram",
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
+    },
+    {
+      title: "Book Us",
+      icon: (
+        <IconBrandTelegram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/book",
     },
   ];
   return (

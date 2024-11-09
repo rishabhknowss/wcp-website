@@ -79,8 +79,8 @@ const ReviewCard = ({
 
 export function Testimonials() {
   return (
-    <div className="h-screen flex flex-col justify-center">
-        <div className="wcp text-3xl md:text-6xl flex justify-center md:my-10">100+ Happy Customers 🥳</div>
+    <div className="h-screen flex flex-col md:justify-center">
+        <div className="wcp text-3xl md:text-6xl flex justify-center md:mt-20 mb-10">100+ Happy Customers 🥳</div>
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg ">
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
