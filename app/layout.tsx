@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Wedding clicks Photography",
-  description: "Best wedding photography in town",
+  description: "Best wedding photography in Lucknow",
 };
 
 export default function RootLayout({ children }: LayoutProps) {

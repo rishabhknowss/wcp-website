@@ -4,7 +4,7 @@ import { Instagram, Phone, Mail, MapPin, Camera, Aperture } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { FloatingDockDemo } from '../components/Navbar'
+import { FloatingDockDemo } from '../../components/Navbar'
 import Lenis from 'lenis'
 import { IconBrandTelegram } from '@tabler/icons-react'
 

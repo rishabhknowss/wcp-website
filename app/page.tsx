@@ -1,10 +1,10 @@
 "use client"
 import { useEffect } from "react";
-import  {Hero}  from "./components/Hero";
+import  {Hero}  from "../components/Hero";
 import Lenis from "lenis";
-import { FloatingDockDemo } from "./components/Navbar";
-import { EventPage } from "./components/Event";
-import { Testimonials } from "./components/Testimonials";
+import { FloatingDockDemo } from "../components/Navbar";
+import { EventPage } from "../components/Event";
+import { Testimonials } from "../components/Testimonials";
 
 
 export default function Home() {

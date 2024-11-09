@@ -1,7 +1,7 @@
 "use client";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { FloatingDockDemo } from "../components/Navbar";
-import ImageReact from "../components/Images";
+import { FloatingDockDemo } from "../../components/Navbar";
+import ImageReact from "../../components/Images";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import Link from "next/link";
